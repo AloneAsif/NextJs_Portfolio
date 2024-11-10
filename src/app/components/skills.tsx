@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 export default function Skills() {
   return (
     <div className=" mx-4 md:mx-40 lg:mx-48">

@@ -8,7 +8,7 @@ export default function About() {
         Hello! I'm Asif, a passionate graphic designer and front-end developer
         with expertise in HTML, CSS, and JavaScript. I have a keen eye for
         detail and a love for creating intuitive, visually appealing designs. In
-        addition to my design skills, I’m currently expanding my knowledge of
+        addition to my design skills, Im currently expanding my knowledge of
         web development with a focus on Next.js, TypeScript, and Python for
         generative AI.
       </p>

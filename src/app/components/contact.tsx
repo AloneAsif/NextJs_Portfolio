@@ -1,5 +1,5 @@
 import { FC } from "react";
-
+import Image from 'next/image';
 interface ContactCardProps {
   name: string;
   title: string;
@@ -24,11 +24,15 @@ const ContactCard: FC<ContactCardProps> = ({
       </div>
       
       <div className="max-w-sm w-full bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
-        <img
-          className="w-full h-48 object-contain"
-          src={imageUrl}
-          alt={name}
-        />
+      <Image
+  className="w-full h-48 object-contain"
+  src={imageUrl}
+  alt={name}
+  width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: '12rem' }}
+/>
 
         <div className="p-6">
           <h2 className="text-2xl font-semibold text-gray-800">{name}</h2>

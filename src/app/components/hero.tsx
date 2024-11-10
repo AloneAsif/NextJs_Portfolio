@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link"; // If "Contact me" is a link to a contact page
 import { Button } from "@/components/ui/button"; // Assuming you have a custom Button component
